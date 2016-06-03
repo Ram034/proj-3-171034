@@ -1,0 +1,68 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- hyderabad.html -->
+<!-- Page for Project. -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<title> Ram ISEM 501 </title>
+		<link rel="stylesheet" type="text/css" href="cssfile.css" />
+	</head>
+	<body>
+		<div id="main_container">
+			<div id="main_header">
+				<div id="intro">
+					<h2>Ram's Project for ISEM 501</h2>
+					<div id="tabs">
+						<ul>
+							<li> <a href = index.html id = "index" onmouseover = "menuMouseOver('index')" onmouseout = "menuMouseOut('index')"> Home </a> </li>
+							<li> <a href = hyderabad.html id = "Hyderabad" onmouseover = "menuMouseOver('Hyderabad')" onmouseout = "menuMouseOut('Hyderabad')"> Hyderabad </a> </li>
+							<li> <a href = chennai.html id = "Chennai" onmouseover = "menuMouseOver('Chennai')" onmouseout = "menuMouseOut('Chennai')"> Chennai </a> </li>
+			 				<li> <a href = mumbai.html id = "Mumbai" onmouseover = "menuMouseOver('Mumbai')" onmouseout = "menuMouseOut('Mumbai')"> Mumbai </a> </li>
+			 				<li> <a href = bengaluru.html id = "Bengaluru" onmouseover = "menuMouseOver('Bengaluru')" onmouseout = "menuMouseOut('Bengaluru')"> Bengaluru </a> </li>
+							<li> <a href = ccs.html id = "Contactus" onmouseover = "menuMouseOver('Contactus')" onmouseout = "menuMouseOut('Contactus')"> Contact us </a> </li>
+						</ul>
+					</div>
+					<title>Contact Us Page</title>
+<script type="text/javascript">
+function alertName(){
+alert("Your feedback has been submitted");
+} 
+</script> 
+</head>
+<body>
+
+<form ACTION="formAction.jsp">
+<BR>
+<BR>
+<h1 style="color:blue;"> <center>Contact Us</center></h1>
+<BR>
+<BR>
+<center>
+<BR>
+<table width="50%" cellpadding="5">
+                  <tbody>
+                    <tr>
+                        <td>Please enter your Name: </td>
+                        <td><input TYPE="TEXT" NAME="Name"></td>
+                    </tr>
+                     <tr>
+                        <td>Please enter your Contact Number: </td>
+                        <td><input TYPE="TEXT" NAME="Contact Number"></td>
+                    </tr>
+                     <tr>
+                        <td>Please enter your Email: </td>
+                        <td><input TYPE="TEXT" NAME="Email"></td>
+                    </tr>
+                     <tr>
+                        <td>Please enter your Feedback: </td>
+                        <td><TEXTAREA NAME="Feedback" ROWS="5"></TEXTAREA></td>
+                    </tr>
+</tbody>
+</table>
+            <BR>
+            <br>
+			
+<input type="SUBMIT" value="Submit" onClick="alertName()">
+</center>
+</FORM>
+</html>
